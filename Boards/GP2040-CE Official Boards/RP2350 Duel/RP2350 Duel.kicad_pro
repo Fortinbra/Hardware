@@ -416,13 +416,17 @@
         "uuid": "9569aed4-f877-407f-b337-4ee93294723e"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J1-2,U4-6,#PWR22-26",
     "variants": []
   },
   "sheets": [
     [
       "9569aed4-f877-407f-b337-4ee93294723e",
       "Root"
+    ],
+    [
+      "0cb58968-5eb8-492d-8825-2af9d7211695",
+      "Power"
     ]
   ],
   "text_variables": {},
