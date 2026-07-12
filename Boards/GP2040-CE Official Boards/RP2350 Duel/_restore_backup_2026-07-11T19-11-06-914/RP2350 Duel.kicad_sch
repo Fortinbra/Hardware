@@ -3364,50 +3364,33 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "RP2350Duel:SiT8008BI-72-33N-12.000000"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "Oscillator:SiT8008xx-7x-xxE"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "G"
-				(at -7.62 8.382 0)
+			(property "Reference" "Y"
+				(at 4.064 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" "SiT8008BI-72-33N-12.000000"
-				(at -7.62 -10.16 0)
+			(property "Value" "SiT8008xx-7x-xxE"
+				(at 12.446 6.858 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "RP2350Duel:OSC_SiT8008BI-72-33N-12.000000"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Datasheet" ""
+			(property "Footprint" "Oscillator:Oscillator_SMD_SiT_PQFN-4Pin_2.0x1.6mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3418,7 +3401,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Datasheet" "https://www.sitime.com/support/resource-library/datasheets/sit8008-datasheet"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3429,7 +3412,7 @@
 					)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "0.8mm"
+			(property "Description" "SiTime Low Power Mems programmable oscillator, 1MHz to 110MHz, PQFN-4, 2.0x1.6mm (with output enable pin)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3438,10 +3421,9 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
-			(property "CREATOR" "ASHISH"
+			(property "ki_keywords" "Mems"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3450,10 +3432,9 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
-			(property "STANDARD" "Manufacturer Recommendations"
+			(property "ki_fp_filters" "*PQFN*2.0x1.6mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3462,49 +3443,12 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
-			(property "PARTREV" "1.08"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "VERIFIER" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MANUFACTURER" "SiTime"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(symbol "SiT8008BI-72-33N-12.000000_0_0"
+			(symbol "SiT8008xx-7x-xxE_0_1"
 				(rectangle
-					(start -7.62 -7.62)
-					(end 7.62 7.62)
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3513,74 +3457,89 @@
 						(type background)
 					)
 				)
-				(pin no_connect line
-					(at -12.7 0 0)
-					(length 5.08)
-					(name "NC"
+				(polyline
+					(pts
+						(xy -1.27 -0.762) (xy -1.016 -0.762) (xy -1.016 0.762) (xy -0.508 0.762) (xy -0.508 -0.762) (xy 0 -0.762)
+						(xy 0 0.762) (xy 0.508 0.762) (xy 0.508 -0.762) (xy 0.762 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SiT8008xx-7x-xxE_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "OE"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin power_in line
-					(at 12.7 -5.08 180)
-					(length 5.08)
+					(at 0 -7.62 90)
+					(length 2.54)
 					(name "GND"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin output clock
-					(at 12.7 0 180)
-					(length 5.08)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
 					(name "OUT"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin power_in line
-					(at 12.7 5.08 180)
-					(length 5.08)
-					(name "VDD"
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "Vdd"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -4001,6 +3960,12 @@
 		(uuid "6ab28d99-4c63-42bf-9cd2-b5e87a5eb50d")
 	)
 	(junction
+		(at 83.82 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b77ebe5-0edc-4936-ab61-ea6a3c2f9099")
+	)
+	(junction
 		(at 255.27 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4011,12 +3976,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7701490-4b1b-4067-b3db-b212b08abe17")
-	)
-	(junction
-		(at 215.9 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8204f29-b96d-41fa-ada1-6d7b0c9273ad")
 	)
 	(junction
 		(at 38.1 153.67)
@@ -4071,16 +4030,6 @@
 			(type default)
 		)
 		(uuid "03eb3d5f-9b3e-4518-8312-552f1bff0df9")
-	)
-	(wire
-		(pts
-			(xy 104.14 134.62) (xy 99.06 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "049604ef-a68c-438a-be64-f1495ff0c5db")
 	)
 	(wire
 		(pts
@@ -4214,6 +4163,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 120.65) (xy 91.44 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f4afa4f-fdc3-4ded-b0d2-7ffa151baa95")
+	)
+	(wire
+		(pts
 			(xy 41.91 50.8) (xy 36.83 50.8)
 		)
 		(stroke
@@ -4321,6 +4280,16 @@
 			(type default)
 		)
 		(uuid "56603f38-652b-4b99-9f78-5de3f925ad8d")
+	)
+	(wire
+		(pts
+			(xy 71.12 120.65) (xy 76.2 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "590f199a-e6de-47f0-bf19-1eaaf1ca12a0")
 	)
 	(wire
 		(pts
@@ -4524,6 +4493,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 114.3) (xy 71.12 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af0a74c7-838e-4867-a526-9139546d3ca0")
+	)
+	(wire
+		(pts
 			(xy 264.16 62.23) (xy 264.16 77.47)
 		)
 		(stroke
@@ -4534,16 +4513,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 129.54) (xy 104.14 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b15f0f92-d57e-406e-852a-4a8644720fd9")
-	)
-	(wire
-		(pts
 			(xy 31.75 50.8) (xy 25.4 50.8)
 		)
 		(stroke
@@ -4551,6 +4520,26 @@
 			(type default)
 		)
 		(uuid "b9b7f266-f4ef-4dac-a5f9-6b52d209b420")
+	)
+	(wire
+		(pts
+			(xy 90.17 113.03) (xy 83.82 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baabd2b0-e3b3-4f6c-9190-fea4a51d6d54")
+	)
+	(wire
+		(pts
+			(xy 71.12 119.38) (xy 71.12 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb16733d-b3ec-4bff-a0e0-6d22cf3e85ea")
 	)
 	(wire
 		(pts
@@ -4621,6 +4610,16 @@
 			(type default)
 		)
 		(uuid "ce39532b-99c4-434d-8613-69a36a03cbe7")
+	)
+	(wire
+		(pts
+			(xy 71.12 113.03) (xy 83.82 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce4e92a5-ac7b-4bb9-9f16-ecb3dc4099ff")
 	)
 	(wire
 		(pts
@@ -4704,16 +4703,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 144.78) (xy 128.27 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee25420f-494f-4344-9d34-bcb6dddbfa98")
-	)
-	(wire
-		(pts
 			(xy 62.23 24.13) (xy 63.5 24.13)
 		)
 		(stroke
@@ -4721,16 +4710,6 @@
 			(type default)
 		)
 		(uuid "f2570e22-6f6e-4a91-af19-744e04e3c078")
-	)
-	(wire
-		(pts
-			(xy 118.11 142.24) (xy 128.27 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2d90c61-e0d8-4c66-9181-4e04864c5412")
 	)
 	(wire
 		(pts
@@ -4773,7 +4752,7 @@
 		(uuid "0037662a-9d66-4a43-8b7e-56c64d8f6f16")
 	)
 	(label "XIN"
-		(at 104.14 134.62 180)
+		(at 96.52 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4922,16 +4901,6 @@
 		)
 		(uuid "34b0a727-da73-46e0-bd48-03e1e2ed64ef")
 	)
-	(label "USB_DN"
-		(at 118.11 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "355a6a06-9ce9-4291-bbb8-abd231d1f49c")
-	)
 	(label "IOVDD"
 		(at 31.75 92.71 180)
 		(effects
@@ -4982,7 +4951,7 @@
 		)
 		(uuid "4ee95757-9a62-46af-8a82-de81953da4b3")
 	)
-	(label "USB_DN"
+	(label "USB_DM"
 		(at 129.54 30.48 90)
 		(effects
 			(font
@@ -5242,16 +5211,6 @@
 		)
 		(uuid "8b0ff978-1ba6-4a4b-9f98-db6614ff33b0")
 	)
-	(label "USB_DP"
-		(at 118.11 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9349bd49-ec81-4d6c-89fc-0ddac14acc9b")
-	)
 	(label "gSPI_Data_Out"
 		(at 274.32 40.64 180)
 		(effects
@@ -5391,6 +5350,16 @@
 			(justify right bottom)
 		)
 		(uuid "b7214b10-3db0-4a58-937c-0f0be7b921d0")
+	)
+	(label "IOVDD"
+		(at 90.17 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b8cc7dc8-d17c-4d37-acd1-628b54eef28c")
 	)
 	(label "gSPI_SCLK"
 		(at 215.9 67.31 180)
@@ -5985,6 +5954,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 71.12 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c480e00-8f4f-4d11-9359-af683ffb16a3")
+		(property "Reference" "R2"
+			(at 73.66 115.5699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 73.66 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 71.12 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 71.12 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "39de409b-fec0-4cca-a4d8-046ceed81126")
+		)
+		(pin "1"
+			(uuid "c1b0a826-adf6-4af3-8f0b-c96a4d408ad0")
+		)
+		(instances
+			(project "RP2350 Duel"
+				(path "/9569aed4-f877-407f-b337-4ee93294723e"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 36.83 83.82 0)
 		(unit 1)
@@ -6057,84 +6108,6 @@
 			(project "RP2350 Duel"
 				(path "/9569aed4-f877-407f-b337-4ee93294723e"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 215.9 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18d3c9fa-a026-44d0-ac05-7fe5de8cc66a")
-		(property "Reference" "#PWR039"
-			(at 215.9 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 215.9 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "807e4ed4-f273-4f85-9b47-a817fc361f06")
-		)
-		(instances
-			(project "RP2350 Duel"
-				(path "/9569aed4-f877-407f-b337-4ee93294723e"
-					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -7739,8 +7712,8 @@
 		)
 	)
 	(symbol
-		(lib_id "RP2350Duel:SiT8008BI-72-33N-12.000000")
-		(at 86.36 134.62 0)
+		(lib_id "Oscillator:SiT8008xx-7x-xxE")
+		(at 83.82 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7750,8 +7723,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8338203-7967-415e-9022-09cc39f1088f")
-		(property "Reference" "G1"
-			(at 86.36 121.92 0)
+		(property "Reference" "Y1"
+			(at 99.06 114.2298 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7760,8 +7733,8 @@
 				)
 			)
 		)
-		(property "Value" "SiT8008BI-72-33N-12.000000"
-			(at 86.36 124.46 0)
+		(property "Value" "SiT8008xx-7x-xxE"
+			(at 99.06 116.7698 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7770,8 +7743,8 @@
 				)
 			)
 		)
-		(property "Footprint" "RP2350Duel:OSC_SiT8008BI-72-33N-12.000000"
-			(at 86.36 134.62 0)
+		(property "Footprint" "Oscillator:Oscillator_SMD_SiT_PQFN-4Pin_2.0x1.6mm"
+			(at 83.82 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7779,11 +7752,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Datasheet" "https://www.sitime.com/support/resource-library/datasheets/sit8008-datasheet"
-			(at 86.36 134.62 0)
+			(at 83.82 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7794,7 +7766,7 @@
 			)
 		)
 		(property "Description" "SiTime Low Power Mems programmable oscillator, 1MHz to 110MHz, PQFN-4, 2.0x1.6mm (with output enable pin)"
-			(at 86.36 134.62 0)
+			(at 83.82 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7802,78 +7774,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.8mm"
-			(at 86.36 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "CREATOR" "ASHISH"
-			(at 86.36 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 86.36 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "1.08"
-			(at 86.36 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "VERIFIER" ""
-			(at 86.36 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "SiTime"
-			(at 86.36 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 			)
 		)
 		(pin "1"
@@ -7891,7 +7791,7 @@
 		(instances
 			(project "RP2350 Duel"
 				(path "/9569aed4-f877-407f-b337-4ee93294723e"
-					(reference "G1")
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -8693,88 +8593,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 104.14 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e2fdecaa-958e-4f84-81d3-da829936e9b4")
-		(property "Reference" "R2"
-			(at 106.68 125.7299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 106.68 128.2699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 104.14 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 104.14 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e29467a7-3ddb-44f6-8020-b595038f7166")
-		)
-		(pin "1"
-			(uuid "b7d2a10d-3c44-48a7-8c55-9aff48a3dc15")
-		)
-		(instances
-			(project "RP2350 Duel"
-				(path "/9569aed4-f877-407f-b337-4ee93294723e"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+1V1")
 		(at 63.5 31.75 0)
 		(unit 1)
@@ -8847,84 +8665,6 @@
 			(project "RP2350 Duel"
 				(path "/9569aed4-f877-407f-b337-4ee93294723e"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 99.06 139.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee762750-9927-44fa-9663-dca1d1948617")
-		(property "Reference" "#PWR038"
-			(at 99.06 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 99.06 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5f94860a-fc48-4c21-b1b8-f0d20c9c0ab7")
-		)
-		(instances
-			(project "RP2350 Duel"
-				(path "/9569aed4-f877-407f-b337-4ee93294723e"
-					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -9202,7 +8942,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RP2350Duel:QFN-80-1EP_10x10mm_P0.4mm_EP3.4x3.4mm"
+		(property "Footprint" "Package_DFN_QFN:QFN-80-1EP_10x10mm_P0.4mm_EP3.4x3.4mm"
 			(at 27.94 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -9670,84 +9410,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 104.14 124.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f8645905-2c68-40c5-8625-ada3d71367b4")
-		(property "Reference" "#PWR037"
-			(at 104.14 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 104.14 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 104.14 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fdaae6a7-5035-455a-a074-2925e6ededa5")
-		)
-		(instances
-			(project "RP2350 Duel"
-				(path "/9569aed4-f877-407f-b337-4ee93294723e"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 36.83 53.34 0)
 		(unit 1)
@@ -10187,26 +9849,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "DP" bidirectional
-			(at 128.27 142.24 180)
-			(uuid "4b7685ff-f246-4bb3-a77f-ad8f1371ca7d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DM" bidirectional
-			(at 128.27 144.78 180)
-			(uuid "9a49a849-7e73-4ffb-bad0-8f6456b2124d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(instances
