@@ -3165,6 +3165,18 @@
 		(uuid "1a9bc3bc-d4c7-4a81-ba5b-25b0ff149e99")
 	)
 	(junction
+		(at 190.5 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d64b209-a113-4a76-afb1-c1513ea0fd31")
+	)
+	(junction
+		(at 190.5 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31353569-e152-40ff-901f-7339e6e1d941")
+	)
+	(junction
 		(at 134.62 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3212,6 +3224,12 @@
 		(color 0 0 0 0)
 		(uuid "f12253ff-fb39-4695-bad8-06a4f669d210")
 	)
+	(junction
+		(at 190.5 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5660b5c-f6b9-41cf-9ad3-0212c61df88e")
+	)
 	(no_connect
 		(at 46.99 64.77)
 		(uuid "0630edf4-6de3-4e1e-bc56-35defb302225")
@@ -3227,6 +3245,10 @@
 	(no_connect
 		(at 46.99 57.15)
 		(uuid "3606cbac-9c97-4547-9301-bccd2dace7f4")
+	)
+	(no_connect
+		(at 190.5 36.83)
+		(uuid "433bedca-0ba7-468c-9c80-0b00fe2d9bf4")
 	)
 	(no_connect
 		(at 83.82 77.47)
@@ -3245,8 +3267,40 @@
 		(uuid "7bab4cfb-4565-422d-9f4c-ab3851e2797a")
 	)
 	(no_connect
+		(at 190.5 29.21)
+		(uuid "930329d8-0e0a-4426-9f94-95fba0aed313")
+	)
+	(no_connect
+		(at 190.5 41.91)
+		(uuid "952fbe80-0b00-4925-9bfe-e2dd55c3242a")
+	)
+	(no_connect
+		(at 190.5 31.75)
+		(uuid "a35941e3-90c7-4cce-9edf-d3ba9d4f7364")
+	)
+	(no_connect
+		(at 190.5 46.99)
+		(uuid "bcda63fe-dfc6-40da-bc0b-622047c76943")
+	)
+	(no_connect
+		(at 190.5 49.53)
+		(uuid "d8726109-1113-4e97-8363-ae780f9a8d20")
+	)
+	(no_connect
+		(at 190.5 44.45)
+		(uuid "e4a4a731-d199-424b-8158-00d803a8be5c")
+	)
+	(no_connect
 		(at 83.82 80.01)
 		(uuid "f13b23a0-b131-49a3-b693-c8b0008880e4")
+	)
+	(no_connect
+		(at 190.5 34.29)
+		(uuid "f1dde115-0338-4f5e-a5ec-7ebffaa730be")
+	)
+	(no_connect
+		(at 190.5 39.37)
+		(uuid "f643d9b7-5927-4451-bcc1-0e30c91ceb20")
 	)
 	(wire
 		(pts
@@ -3320,6 +3374,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 87.63) (xy 190.5 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cb9adb2-784c-4491-8ab0-610f3abac0ad")
+	)
+	(wire
+		(pts
 			(xy 134.62 87.63) (xy 123.19 87.63)
 		)
 		(stroke
@@ -3367,6 +3431,16 @@
 			(type default)
 		)
 		(uuid "633d18c2-2813-4a0f-b23c-211e638ebdcc")
+	)
+	(wire
+		(pts
+			(xy 190.5 90.17) (xy 190.5 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a8eca72-81b4-4a5e-93bc-0cbafec151c3")
 	)
 	(wire
 		(pts
@@ -3437,6 +3511,16 @@
 			(type default)
 		)
 		(uuid "ce0b3520-4d39-4c5d-8527-b48dac26812a")
+	)
+	(wire
+		(pts
+			(xy 190.5 85.09) (xy 190.5 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0b2763d-6039-419b-8045-b52408347799")
 	)
 	(wire
 		(pts
@@ -3874,7 +3958,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RP2350Duel:24LC512"
 			(at 93.98 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4619,7 +4703,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS25751SRSMR:RSM0032B-IPC_A"
+		(property "Footprint" "RP2350Duel:RSM0032B-MFG"
 			(at 134.62 29.21 0)
 			(hide yes)
 			(show_name no)
