@@ -4152,6 +4152,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_SPST"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPST"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Single Pole Single Throw (SPST) switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch lever"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_SPST_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPST_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+1V1"
 			(power global)
 			(pin_numbers
@@ -4553,6 +4703,12 @@
 		(uuid "0078cb66-a82c-41c3-9816-e74138f42031")
 	)
 	(junction
+		(at 229.87 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40175575-2555-4a84-8f25-a9487bb8ba44")
+	)
+	(junction
 		(at 245.11 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4563,6 +4719,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ab28d99-4c63-42bf-9cd2-b5e87a5eb50d")
+	)
+	(junction
+		(at 229.87 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd993971-8700-48ba-8adb-ff794d1b320a")
 	)
 	(junction
 		(at 255.27 40.64)
@@ -4605,6 +4767,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f596d97a-1208-47e6-bf50-8ab6154b8620")
+	)
+	(no_connect
+		(at 194.31 116.84)
+		(uuid "0bcea538-225c-4f5d-8bcd-c2043b6a0367")
 	)
 	(wire
 		(pts
@@ -4715,6 +4881,16 @@
 			(type default)
 		)
 		(uuid "140d411c-3e70-4b08-a6d8-9bcf4a07da78")
+	)
+	(wire
+		(pts
+			(xy 229.87 119.38) (xy 229.87 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16dcecd1-f056-4e91-8117-4acbab3d3f17")
 	)
 	(wire
 		(pts
@@ -4835,6 +5011,16 @@
 			(type default)
 		)
 		(uuid "3d8bb148-9252-4532-8ff9-6310cd055daa")
+	)
+	(wire
+		(pts
+			(xy 229.87 128.27) (xy 229.87 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41dcb629-f91d-48d1-8031-4bb86c588633")
 	)
 	(wire
 		(pts
@@ -4975,6 +5161,16 @@
 			(type default)
 		)
 		(uuid "854bd7e2-6f5a-4a35-b466-c29f7cbc8bee")
+	)
+	(wire
+		(pts
+			(xy 227.33 119.38) (xy 229.87 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8861a6c5-10c5-4408-a048-cf90e4eeb253")
 	)
 	(wire
 		(pts
@@ -5148,6 +5344,36 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 138.43) (xy 227.33 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c27a5104-ffd0-4441-8a8f-50df7ad2a40f")
+	)
+	(wire
+		(pts
+			(xy 167.64 121.92) (xy 181.61 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c406ce4b-8a44-435d-8e4a-3d1d034c4475")
+	)
+	(wire
+		(pts
+			(xy 207.01 109.22) (xy 194.31 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c57befef-0e13-4a86-9608-c55ad6e1813c")
+	)
+	(wire
+		(pts
 			(xy 245.11 92.71) (xy 245.11 82.55)
 		)
 		(stroke
@@ -5245,6 +5471,16 @@
 			(type default)
 		)
 		(uuid "e2db5452-b7d9-4431-a5e0-03122f1d430f")
+	)
+	(wire
+		(pts
+			(xy 227.33 128.27) (xy 229.87 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5440af4-9346-4895-815d-3309842c903d")
 	)
 	(wire
 		(pts
@@ -5346,6 +5582,16 @@
 		)
 		(uuid "041731ab-6e2a-4b41-9800-4f28b43379da")
 	)
+	(label "TR"
+		(at 78.74 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "069dcf48-4f26-42d3-a3dc-281c68cbe434")
+	)
 	(label "VDDIO"
 		(at 257.81 74.93 0)
 		(effects
@@ -5375,6 +5621,26 @@
 			(justify left bottom)
 		)
 		(uuid "0ade9ea5-d053-4ddd-9718-3eed3cbf51af")
+	)
+	(label "L1"
+		(at 194.31 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11cae8da-22bb-43b7-9e03-203464743577")
+	)
+	(label "START"
+		(at 78.74 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "122ff187-da6f-43bb-82af-dce80cea09da")
 	)
 	(label "gSPI_CS"
 		(at 105.41 96.52 270)
@@ -5436,6 +5702,26 @@
 		)
 		(uuid "20d50c32-bc08-4547-9286-b25653cf0660")
 	)
+	(label "RIGHT"
+		(at 78.74 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "23319bef-a2a9-4060-bf28-876ec4661d92")
+	)
+	(label "SELECT"
+		(at 217.17 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2383693f-7649-4d35-bffd-70bf6a309704")
+	)
 	(label "WL_D"
 		(at 102.87 96.52 270)
 		(effects
@@ -5466,6 +5752,16 @@
 		)
 		(uuid "293a6373-8321-4c20-8685-4470e3d7ea46")
 	)
+	(label "R3"
+		(at 78.74 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2bfd6ac1-6e04-41a6-8cb2-4c45be5c3a5e")
+	)
 	(label "VREG_LX"
 		(at 137.16 30.48 90)
 		(effects
@@ -5475,6 +5771,16 @@
 			(justify left bottom)
 		)
 		(uuid "2d531e8d-5b53-4126-813c-0b52bfe623df")
+	)
+	(label "L1"
+		(at 78.74 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "32fd45e8-e6b6-4f94-b106-2e4efe17d80f")
 	)
 	(label "VREG_VIN"
 		(at 46.99 92.71 180)
@@ -5496,6 +5802,26 @@
 		)
 		(uuid "355a6a06-9ce9-4291-bbb8-abd231d1f49c")
 	)
+	(label "START"
+		(at 217.17 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3914dbc5-01c4-40e0-8bb3-45fd81830eea")
+	)
+	(label "PS"
+		(at 194.31 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "39237d93-f1e0-4976-a830-2c97e294f175")
+	)
 	(label "IOVDD"
 		(at 31.75 92.71 180)
 		(effects
@@ -5516,6 +5842,16 @@
 		)
 		(uuid "44ebe4e8-c9bf-44f8-8909-82d83a482e4b")
 	)
+	(label "DOWN"
+		(at 93.98 30.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "459504c3-10f8-4377-9cc6-02b7af50c91b")
+	)
 	(label "VREG_VIN"
 		(at 254 25.4 0)
 		(effects
@@ -5535,6 +5871,26 @@
 			(justify right bottom)
 		)
 		(uuid "4912612d-2911-474e-a18c-782fbaa7c2d3")
+	)
+	(label "MUTE"
+		(at 217.17 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4b5ba7a0-6c1e-4879-a4e8-61f3a60bf2b1")
+	)
+	(label "SQ"
+		(at 194.31 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e5fa4aa-d83f-4d15-a0a1-27a9328ac216")
 	)
 	(label "QSPI_SCLK"
 		(at 16.51 135.89 0)
@@ -5646,6 +6002,16 @@
 		)
 		(uuid "6540557c-c628-4362-a3a5-4ee92f86c972")
 	)
+	(label "R2"
+		(at 78.74 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "67b6a2ad-893e-41ce-b2d0-48d4d2f3350f")
+	)
 	(label "VREG_FB"
 		(at 45.72 64.77 180)
 		(effects
@@ -5675,6 +6041,16 @@
 			(justify right bottom)
 		)
 		(uuid "6c8c5e46-87e5-428c-bbd5-e7ef1417a1c0")
+	)
+	(label "L2"
+		(at 78.74 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "704b6dc6-a888-4686-bb6d-328f3704d7dc")
 	)
 	(label "VDDIO"
 		(at 248.92 82.55 270)
@@ -5736,6 +6112,16 @@
 		)
 		(uuid "7d5997f3-7276-4220-93fa-efff2e2195f9")
 	)
+	(label "CIR"
+		(at 78.74 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7ee385d4-3b4b-4f5e-8763-7601432c624d")
+	)
 	(label "IOVDD"
 		(at 78.74 73.66 180)
 		(effects
@@ -5755,6 +6141,26 @@
 			(justify right bottom)
 		)
 		(uuid "8185a23c-43c5-4be5-b195-decff5f987df")
+	)
+	(label "UP"
+		(at 181.61 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "81be61f5-1e49-400d-a08d-d871c3b88a7a")
+	)
+	(label "LEFT"
+		(at 78.74 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "81db90c1-7d25-40ce-9a72-a195a77fd485")
 	)
 	(label "QSPI_SD0"
 		(at 16.51 138.43 0)
@@ -5796,6 +6202,16 @@
 		)
 		(uuid "895ae6ed-c037-4252-8eea-8c57a1724ca8")
 	)
+	(label "MUTE"
+		(at 78.74 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8a82ddf9-f263-4383-a923-d44c85006f91")
+	)
 	(label "IOVDD"
 		(at 104.14 30.48 90)
 		(effects
@@ -5816,6 +6232,26 @@
 		)
 		(uuid "9349bd49-ec81-4d6c-89fc-0ddac14acc9b")
 	)
+	(label "TR"
+		(at 181.61 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "972b62ca-8230-491e-9acc-ca32c83e0133")
+	)
+	(label "CIR"
+		(at 194.31 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98d58942-5f19-45cd-8153-54e10ff92e5b")
+	)
 	(label "gSPI_Data_Out"
 		(at 274.32 40.64 180)
 		(effects
@@ -5825,6 +6261,16 @@
 			(justify right bottom)
 		)
 		(uuid "9b0e1f51-584e-4939-b0bd-dac085d81ea4")
+	)
+	(label "LEFT"
+		(at 194.31 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b5e42a9-6c32-4af0-beb0-432397319baf")
 	)
 	(label "WL_ON"
 		(at 245.11 92.71 90)
@@ -5855,6 +6301,16 @@
 			(justify left bottom)
 		)
 		(uuid "a06fa818-001d-4810-a4f1-ee182f713fa3")
+	)
+	(label "R1"
+		(at 78.74 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a0e3d3e1-15f3-470c-b7da-fb3cc694a285")
 	)
 	(label "gSPI_CS"
 		(at 236.22 82.55 270)
@@ -5896,6 +6352,26 @@
 		)
 		(uuid "a426aded-dd5e-48d2-b533-7f43faee2d86")
 	)
+	(label "SQ"
+		(at 78.74 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a6009581-9cd9-4e94-bf3c-121e57d1d46a")
+	)
+	(label "UP"
+		(at 96.52 30.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6509793-41ce-4fc0-9887-bb0ec4dd1d9c")
+	)
 	(label "IOVDD"
 		(at 113.03 96.52 270)
 		(effects
@@ -5935,6 +6411,16 @@
 			(justify right bottom)
 		)
 		(uuid "ae027180-81c9-4c3f-b97e-c0b5a1a1f234")
+	)
+	(label "SELECT"
+		(at 78.74 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b11fae2f-9a51-4b01-a3e6-100467d4bff4")
 	)
 	(label "IOVDD"
 		(at 31.75 50.8 180)
@@ -5976,6 +6462,36 @@
 		)
 		(uuid "bbe35f04-ffd6-463e-a6c1-b795929f25d4")
 	)
+	(label "X"
+		(at 78.74 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bc26b7a5-e6c6-4e56-b8df-890cef4678ce")
+	)
+	(label "L3"
+		(at 78.74 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c16d0b19-5eeb-4a3d-961e-f5158b339447")
+	)
+	(label "R1"
+		(at 194.31 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c6000461-e5cb-416b-8271-5842130a1344")
+	)
 	(label "IOVDD"
 		(at 55.88 31.75 0)
 		(effects
@@ -6006,6 +6522,16 @@
 		)
 		(uuid "ca25724b-afa7-4594-948d-e55f98de53f9")
 	)
+	(label "R2"
+		(at 181.61 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cb3dd177-9c0d-4a98-aa31-b2bc83126c7f")
+	)
 	(label "IOVDD"
 		(at 190.5 44.45 0)
 		(effects
@@ -6015,6 +6541,16 @@
 			(justify left bottom)
 		)
 		(uuid "ce651b72-d441-440e-bfde-12a1743e68a2")
+	)
+	(label "RIGHT"
+		(at 181.61 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cfe924ff-0be8-431e-89b8-de65b964739a")
 	)
 	(label "QSPI_SD1"
 		(at 16.51 140.97 0)
@@ -6056,6 +6592,16 @@
 		)
 		(uuid "de02ce2e-c2a2-4ec8-bddf-778727e5c062")
 	)
+	(label "DOWN"
+		(at 181.61 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "df71cb67-3290-43c1-9692-718859d31210")
+	)
 	(label "QSPI_SCLK"
 		(at 116.84 30.48 90)
 		(effects
@@ -6086,6 +6632,16 @@
 		)
 		(uuid "e3d97c4a-95b2-4472-ad0f-6d9bdc95e753")
 	)
+	(label "X"
+		(at 181.61 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e8bd388f-5516-48f4-8c26-a064b66bca44")
+	)
 	(label "DVDD"
 		(at 41.91 22.86 180)
 		(effects
@@ -6105,6 +6661,16 @@
 			(justify right bottom)
 		)
 		(uuid "f2c340a8-91c6-4703-a1f6-07b22ef144b1")
+	)
+	(label "L2"
+		(at 181.61 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f303d515-0408-4e38-ba77-b9feed52e396")
 	)
 	(label "VREG_AVDD"
 		(at 280.67 25.4 180)
@@ -6627,6 +7193,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 222.25 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "166ce2ab-4619-4125-b9f1-49f165784bc3")
+		(property "Reference" "SW1"
+			(at 222.25 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 222.25 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RP2350Duel:SKRWAEE030"
+			(at 222.25 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 222.25 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3f18dbed-22f6-4aff-9915-33338c1070a2")
+		)
+		(pin "1"
+			(uuid "9ed727f8-c543-4cdd-818c-de1c99dae088")
+		)
+		(instances
+			(project "RP2350 Duel"
+				(path "/9569aed4-f877-407f-b337-4ee93294723e"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 215.9 93.98 0)
 		(unit 1)
@@ -6941,6 +7587,84 @@
 			(project "RP2350 Duel"
 				(path "/9569aed4-f877-407f-b337-4ee93294723e"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27736929-7d44-4fc9-88d7-a189a87a953b")
+		(property "Reference" "#PWR041"
+			(at 167.64 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7bdd39a9-e524-4c35-bd0f-f83201893299")
+		)
+		(instances
+			(project "RP2350 Duel"
+				(path "/9569aed4-f877-407f-b337-4ee93294723e"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -7335,6 +8059,86 @@
 			(project "RP2350 Duel"
 				(path "/9569aed4-f877-407f-b337-4ee93294723e"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 222.25 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a792245-76da-4ef7-b72d-b1d082405341")
+		(property "Reference" "SW2"
+			(at 222.25 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 222.25 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RP2350Duel:SKRWAEE030"
+			(at 222.25 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 222.25 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3f18dbed-22f6-4aff-9915-33338c1070a2")
+		)
+		(pin "1"
+			(uuid "9ed727f8-c543-4cdd-818c-de1c99dae088")
+		)
+		(instances
+			(project "RP2350 Duel"
+				(path "/9569aed4-f877-407f-b337-4ee93294723e"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -7747,6 +8551,164 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 229.87 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6abef5a6-ba96-4374-8d3c-f9371e60d1da")
+		(property "Reference" "#PWR042"
+			(at 229.87 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 229.87 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4be11be5-6528-4cdd-afd4-5a95eb6253ce")
+		)
+		(instances
+			(project "RP2350 Duel"
+				(path "/9569aed4-f877-407f-b337-4ee93294723e"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 222.25 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "700bc458-09c5-4a6f-b537-a71bfab74879")
+		(property "Reference" "SW3"
+			(at 222.25 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 222.25 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RP2350Duel:SKRWAEE030"
+			(at 222.25 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 222.25 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3f18dbed-22f6-4aff-9915-33338c1070a2")
+		)
+		(pin "1"
+			(uuid "9ed727f8-c543-4cdd-818c-de1c99dae088")
+		)
+		(instances
+			(project "RP2350 Duel"
+				(path "/9569aed4-f877-407f-b337-4ee93294723e"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 200.66 25.4 90)
 		(unit 1)
@@ -8018,7 +8980,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RP2350Duel:FlexPCB"
 			(at 186.69 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -9455,6 +10417,84 @@
 			(project "RP2350 Duel"
 				(path "/9569aed4-f877-407f-b337-4ee93294723e"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 207.01 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3a0dc6e-05ec-4b74-9006-35d7c7b28387")
+		(property "Reference" "#PWR040"
+			(at 207.01 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.01 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 207.01 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "407f1ff8-dd86-4814-b54e-67d960bdf64b")
+		)
+		(instances
+			(project "RP2350 Duel"
+				(path "/9569aed4-f877-407f-b337-4ee93294723e"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
