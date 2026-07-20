@@ -5582,15 +5582,15 @@
 		)
 		(uuid "041731ab-6e2a-4b41-9800-4f28b43379da")
 	)
-	(label "TR"
-		(at 78.74 58.42 180)
+	(label "CIR"
+		(at 78.74 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "069dcf48-4f26-42d3-a3dc-281c68cbe434")
+		(uuid "0616d73b-c1b1-4abf-86ef-61c8d1cb90c3")
 	)
 	(label "VDDIO"
 		(at 257.81 74.93 0)
@@ -5621,6 +5621,16 @@
 			(justify left bottom)
 		)
 		(uuid "0ade9ea5-d053-4ddd-9718-3eed3cbf51af")
+	)
+	(label "RIGHT"
+		(at 93.98 30.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d5540b4-57fe-4c26-81bd-d14b949da3f4")
 	)
 	(label "L1"
 		(at 194.31 114.3 0)
@@ -5692,6 +5702,26 @@
 		)
 		(uuid "17ddea99-3a3b-40fc-ad52-9f71189391cf")
 	)
+	(label "TR"
+		(at 78.74 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1b25171a-f76f-47a5-828a-0b217d294578")
+	)
+	(label "PS"
+		(at 78.74 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1c9a3072-32dc-4ff8-be39-f84f572fe036")
+	)
 	(label "USB_OTP_VDD"
 		(at 124.46 30.48 90)
 		(effects
@@ -5701,16 +5731,6 @@
 			(justify left bottom)
 		)
 		(uuid "20d50c32-bc08-4547-9286-b25653cf0660")
-	)
-	(label "RIGHT"
-		(at 78.74 38.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "23319bef-a2a9-4060-bf28-876ec4661d92")
 	)
 	(label "SELECT"
 		(at 217.17 119.38 180)
@@ -5752,6 +5772,16 @@
 		)
 		(uuid "293a6373-8321-4c20-8685-4470e3d7ea46")
 	)
+	(label "R2"
+		(at 78.74 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2a8ae326-5de2-457e-adc8-aa3b2646e46d")
+	)
 	(label "R3"
 		(at 78.74 83.82 180)
 		(effects
@@ -5771,16 +5801,6 @@
 			(justify left bottom)
 		)
 		(uuid "2d531e8d-5b53-4126-813c-0b52bfe623df")
-	)
-	(label "L1"
-		(at 78.74 66.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "32fd45e8-e6b6-4f94-b106-2e4efe17d80f")
 	)
 	(label "VREG_VIN"
 		(at 46.99 92.71 180)
@@ -5842,16 +5862,6 @@
 		)
 		(uuid "44ebe4e8-c9bf-44f8-8909-82d83a482e4b")
 	)
-	(label "DOWN"
-		(at 93.98 30.48 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "459504c3-10f8-4377-9cc6-02b7af50c91b")
-	)
 	(label "VREG_VIN"
 		(at 254 25.4 0)
 		(effects
@@ -5882,6 +5892,16 @@
 		)
 		(uuid "4b5ba7a0-6c1e-4879-a4e8-61f3a60bf2b1")
 	)
+	(label "L1"
+		(at 78.74 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4dd50faf-0851-4011-a7d5-571227b6e402")
+	)
 	(label "SQ"
 		(at 194.31 121.92 0)
 		(effects
@@ -5902,6 +5922,26 @@
 		)
 		(uuid "4ee95757-9a62-46af-8a82-de81953da4b3")
 	)
+	(label "DOWN"
+		(at 96.52 30.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f0be1db-e1dd-43e4-b29f-aa52f0d9d9b4")
+	)
+	(label "X"
+		(at 78.74 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5036201b-5cd3-4374-a2e9-201236a6a186")
+	)
 	(label "USB_DN"
 		(at 129.54 30.48 90)
 		(effects
@@ -5921,6 +5961,16 @@
 			(justify left bottom)
 		)
 		(uuid "53b25414-2a03-402d-85da-aefb2bf91baf")
+	)
+	(label "L2"
+		(at 78.74 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "53b844da-0897-427f-8647-33ad934cb6c7")
 	)
 	(label "gSPI_Data_In"
 		(at 215.9 72.39 180)
@@ -6002,16 +6052,6 @@
 		)
 		(uuid "6540557c-c628-4362-a3a5-4ee92f86c972")
 	)
-	(label "R2"
-		(at 78.74 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "67b6a2ad-893e-41ce-b2d0-48d4d2f3350f")
-	)
 	(label "VREG_FB"
 		(at 45.72 64.77 180)
 		(effects
@@ -6032,6 +6072,16 @@
 		)
 		(uuid "6a6f9628-5a74-4261-8676-99b344ea46ec")
 	)
+	(label "LEFT"
+		(at 78.74 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6b17c605-0f5d-47c2-bf17-f62ccd9411aa")
+	)
 	(label "nIRQ"
 		(at 238.76 82.55 270)
 		(effects
@@ -6041,16 +6091,6 @@
 			(justify right bottom)
 		)
 		(uuid "6c8c5e46-87e5-428c-bbd5-e7ef1417a1c0")
-	)
-	(label "L2"
-		(at 78.74 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "704b6dc6-a888-4686-bb6d-328f3704d7dc")
 	)
 	(label "VDDIO"
 		(at 248.92 82.55 270)
@@ -6112,16 +6152,6 @@
 		)
 		(uuid "7d5997f3-7276-4220-93fa-efff2e2195f9")
 	)
-	(label "CIR"
-		(at 78.74 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7ee385d4-3b4b-4f5e-8763-7601432c624d")
-	)
 	(label "IOVDD"
 		(at 78.74 73.66 180)
 		(effects
@@ -6151,16 +6181,6 @@
 			(justify right bottom)
 		)
 		(uuid "81be61f5-1e49-400d-a08d-d871c3b88a7a")
-	)
-	(label "LEFT"
-		(at 78.74 40.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "81db90c1-7d25-40ce-9a72-a195a77fd485")
 	)
 	(label "QSPI_SD0"
 		(at 16.51 138.43 0)
@@ -6222,6 +6242,16 @@
 		)
 		(uuid "8b0ff978-1ba6-4a4b-9f98-db6614ff33b0")
 	)
+	(label "SQ"
+		(at 78.74 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8fef35ce-5fd2-4dfc-a71b-3af0f9102569")
+	)
 	(label "USB_DP"
 		(at 118.11 142.24 0)
 		(effects
@@ -6282,6 +6312,16 @@
 		)
 		(uuid "9b85c5d4-22ca-4943-a0a4-8b3e4d81382b")
 	)
+	(label "R1"
+		(at 78.74 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9d2e51e9-0c01-4341-9068-c2d025ad7009")
+	)
 	(label "QSPI_IOVDD"
 		(at 121.92 30.48 90)
 		(effects
@@ -6301,16 +6341,6 @@
 			(justify left bottom)
 		)
 		(uuid "a06fa818-001d-4810-a4f1-ee182f713fa3")
-	)
-	(label "R1"
-		(at 78.74 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a0e3d3e1-15f3-470c-b7da-fb3cc694a285")
 	)
 	(label "gSPI_CS"
 		(at 236.22 82.55 270)
@@ -6352,25 +6382,15 @@
 		)
 		(uuid "a426aded-dd5e-48d2-b533-7f43faee2d86")
 	)
-	(label "SQ"
-		(at 78.74 55.88 180)
+	(label "UP"
+		(at 78.74 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "a6009581-9cd9-4e94-bf3c-121e57d1d46a")
-	)
-	(label "UP"
-		(at 96.52 30.48 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a6509793-41ce-4fc0-9887-bb0ec4dd1d9c")
+		(uuid "a5528176-7f66-4141-9f18-d14d3d978f70")
 	)
 	(label "IOVDD"
 		(at 113.03 96.52 270)
@@ -6461,16 +6481,6 @@
 			(justify right bottom)
 		)
 		(uuid "bbe35f04-ffd6-463e-a6c1-b795929f25d4")
-	)
-	(label "X"
-		(at 78.74 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bc26b7a5-e6c6-4e56-b8df-890cef4678ce")
 	)
 	(label "L3"
 		(at 78.74 81.28 180)
@@ -8130,10 +8140,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "3f18dbed-22f6-4aff-9915-33338c1070a2")
+			(uuid "3f18dbed-22f6-4aff-9915-33338c1070a3")
 		)
 		(pin "1"
-			(uuid "9ed727f8-c543-4cdd-818c-de1c99dae088")
+			(uuid "9ed727f8-c543-4cdd-818c-de1c99dae089")
 		)
 		(instances
 			(project "RP2350 Duel"
@@ -8694,10 +8704,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "3f18dbed-22f6-4aff-9915-33338c1070a2")
+			(uuid "3f18dbed-22f6-4aff-9915-33338c1070a4")
 		)
 		(pin "1"
-			(uuid "9ed727f8-c543-4cdd-818c-de1c99dae088")
+			(uuid "9ed727f8-c543-4cdd-818c-de1c99dae08a")
 		)
 		(instances
 			(project "RP2350 Duel"
